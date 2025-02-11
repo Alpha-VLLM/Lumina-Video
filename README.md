@@ -4,6 +4,8 @@
 
 **Official repository for Lumina-Video, a preliminary tryout of the Lumina series for Video Generation**
 
+[![Lumina-mGPT](https://img.shields.io/badge/Paper-Lumina--Video-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2502.06782)&#160;
+
 </div>
 
 
