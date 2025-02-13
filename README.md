@@ -171,3 +171,18 @@ Once the data has been prepared, you're ready to start training! For an example,
 
 - [X] Inference code
 - [X] Training code
+
+
+## 📃 Citation
+
+```bash
+@misc{luminavideo,
+      title={Lumina-Video: Efficient and Flexible Video Generation with Multi-scale Next-DiT}, 
+      author={Dongyang Liu and Shicheng Li and Yutong Liu and Zhen Li and Kai Wang and Xinyue Li and Qi Qin and Yufei Liu and Yi Xin and Zhongyu Li and Bin Fu and Chenyang Si and Yuewen Cao and Conghui He and Ziwei Liu and Yu Qiao and Qibin Hou and Hongsheng Li and Peng Gao},
+      year={2025},
+      eprint={2502.06782},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.06782}, 
+}
+```
