@@ -877,6 +877,12 @@ class MultiScaleNextDiT(nn.Module):
         _recursive_count_params(self)
         return total_params
 
+    def get_fsdp_wrap_module_list(self) -> List[nn.Module]:
+        return list(self.layers)
+
+    def get_checkpointing_wrap_module_list(self) -> List[nn.Module]:
+        return list(self.layers)
+
     def my_fsdp(self, wrap_func: Callable):
         for i, layer in enumerate(self.layers):
             self.layers[i] = wrap_func(layer)
