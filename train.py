@@ -894,7 +894,6 @@ def main(args):
                         motion_score=motion_score_mb,
                         patch_size=task_pack["patch_size"],
                         f_patch_size=task_pack["f_patch_size"],
-                        unbind_temporal=task_pack["unbind_temporal"],
                     )
                     with {
                         "bf16": torch.amp.autocast("cuda", dtype=torch.bfloat16),

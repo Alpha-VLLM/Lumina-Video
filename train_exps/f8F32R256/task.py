@@ -12,7 +12,6 @@ tasks = {
         "task_ratio": 4,
         "patch_size": 2,
         "f_patch_size": 1,
-        "unbind_temporal": False,
         "num_workers": 3,
     },
     "V-FP1-f8F32R256": {
@@ -28,7 +27,6 @@ tasks = {
         "task_ratio": 4,
         "patch_size": 2,
         "f_patch_size": 1,
-        "unbind_temporal": False,
         "num_workers": 3,
     },
     "V-FP2-f8F32R256": {
@@ -44,7 +42,6 @@ tasks = {
         "task_ratio": 4,
         "patch_size": 2,
         "f_patch_size": 2,
-        "unbind_temporal": False,
         "num_workers": 3,
     },
     "V-FP2P4-f8F32R256": {
@@ -60,7 +57,6 @@ tasks = {
         "task_ratio": 4,
         "patch_size": 4,
         "f_patch_size": 2,
-        "unbind_temporal": False,
         "num_workers": 3,
     },
 }
